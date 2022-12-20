@@ -1,4 +1,2 @@
-runs/
-models/
 src/__pycache__/
 src/dense_nn/__pycache__
