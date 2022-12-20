@@ -11,3 +11,6 @@ Than i have a Agent_Interpreter (Agent 1, Agent 2 or Agent_Interpreter) which ta
 After the Agent Interpreter is the Agent itself. Right now i have a working expert System with a record ~20 and a Q-learning Agent with a record of ~45.
 
 After the Agent is (except for the expert System) a model.  In future i want to try different libraries for machine learning (tensorflow is next) and also a Q learning Table without any machine learning library. (NumPy only :))
+
+To replay the record runs in a Snake Game, simply open runs/play_run.py and insert the run you want to play in line 30.
+Noitice: you need to have pygame, numpy and time installed. I have a graphical User Interface Planned to see the record of different Agents after x hours of training.
